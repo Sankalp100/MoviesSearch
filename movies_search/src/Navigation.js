@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './Navigation.css';
 
 class Navigation extends Component{
     render(){
         return(
-            <div>
-                <nav class="nav-wrapper">
+            
+                <nav class="nav-wrapper blue">
                     <div className="container">
                     <a href="#" class="brand-logo indigo-text text-darken-4">
                         <i class="logo material-icons">cloud</i>
@@ -12,7 +13,7 @@ class Navigation extends Component{
                     </a>
                     </div>
                 </nav>
-            </div>
+            
         );
     }
 } 
