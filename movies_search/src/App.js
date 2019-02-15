@@ -6,6 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <nav class="nav-wrapper transparent">
           <div class="container">
                   <a href="#" class="brand-logo indigo-text text-darken-4">
@@ -37,7 +38,9 @@ class App extends Component {
               </div>
         </nav>
         
+
       </div>
+      
     );
   }
 }
